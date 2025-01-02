@@ -13,12 +13,12 @@
 
 body {
   height: 100%;
-  background-image: url("../images/");
+  background-image: url("../images/dillosiangsss-01-12-2024-0001.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
-  background-color: #fc6ffc;
+  /* background-color: #fc6ffc; */
   transition: background-image 1s ease-in-out;
 }
 
@@ -96,8 +96,8 @@ h4 {
 
 /* this selector to manipulate the js code */
 .timeleft .expired {
-  font-size: 1.5rem;
-  color: #ff0033;
+  font-size: 1.4rem;
+  color: #f8f8f8;
   text-transform: none;
 }
 
@@ -207,6 +207,7 @@ h4 {
 
   .timeleft .expired {
     font-size: 16px;
+    margin: 0 2px 0px 2px;
   }
 
   .text h4 {
