@@ -8,7 +8,7 @@ This project is a simple yet charming countdown timer designed by [me](https://h
 
 ## Preview & link
 
-![dillah](assets/images/screenshot-preview.png)
+![dillah](./assets/images/screenshot-preview.png)
 
 [See it Live Here](https://halip26.github.io/dillah-birthday-countdown/)
 
