@@ -92,7 +92,7 @@ function getRemindingTime() {
 
   if (t < 0) {
     clearInterval(countdown);
-    timeLeft.innerHTML = `<h4 class="expired">Sorry, this birthday has passed!  <br /> Click the button below 👇 <br /> <a href="birthday-card.html">Birthday wishes </a> </h4>`;
+    timeLeft.innerHTML = `<h4 class="expired">Hi dils, your birthday has passed!  <br /> But, try to click the button below hehee 👇 <br /> <a href="birthday-card.html">Birthday wishes </a> </h4>`;
   }
 }
 
@@ -110,10 +110,12 @@ document.getElementById("currentYear").textContent = currentYear;
 
 // Array of background images
 const images = [
-  'url("./assets/images/")',
-  'url("./assets/images/")',
-  'url("./assets/images/")',
-  'url("./assets/images/")',
+  'url("./assets/images/dillosiangsss-01-12-2024-0001.jpg")',
+  'url("./assets/images/dillosiangsss-05-09-2024-0001.jpg")',
+  'url("./assets/images/nurfadillahnatsirr-03-08-2024-0001.jpg")',
+  'url("./assets/images/nurfadillahnatsirr-04-11-2024-0001.jpg")',
+  'url("./assets/images/nurfadillahnatsirr-20-09-2024-0001.jpg")',
+  'url("./assets/images/nurfadillahnatsirr-23-08-2024-0001.jpg")',
 ];
 
 // Initial index
