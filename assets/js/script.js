@@ -52,7 +52,7 @@ if (hours > 12) {
   amPm = "pm";
 } else {
   amPm = "am";
-}
+} 
 
 // Manipulate the text of .birthdayOn
 theBirthday.textContent = `Birthday on ${weekday}, ${month} ${date}, ${year} at ${hours}:${minutes} ${amPm}`;
