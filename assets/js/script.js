@@ -36,7 +36,7 @@ let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
 
 // Set the date of her birthday
-const futureBirthday = new Date(2025, 0, 4, 23, 59, 0);
+const futureBirthday = new Date(2026, 0, 4, 23, 59, 0);
 
 const year = futureBirthday.getFullYear();
 const hours = futureBirthday.getHours();
@@ -52,7 +52,7 @@ if (hours > 12) {
   amPm = "pm";
 } else {
   amPm = "am";
-} 
+}
 
 // Manipulate the text of .birthdayOn
 theBirthday.textContent = `Birthday on ${weekday}, ${month} ${date}, ${year} at ${hours}:${minutes} ${amPm}`;
