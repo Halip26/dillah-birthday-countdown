@@ -174,18 +174,21 @@ h4 {
 }
 
 /* responsive for iPhone 12 pro */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 394px) {
   body {
     background-size: cover;
   }
 
-  .section-center {
-    margin-bottom: 18rem;
+  .card {
+    margin-top: 85%;
   }
 
-  .card {
-    margin-top: 40%;
-    margin-bottom: -15%;
+  .card-footer {
+    margin-top: -50%;
+  }
+
+  .section-center {
+    margin-bottom: 18rem;
   }
 
   .card h1 {
@@ -202,7 +205,7 @@ h4 {
   }
 
   .text h1 {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .timeleft .expired {

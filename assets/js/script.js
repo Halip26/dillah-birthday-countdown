@@ -36,7 +36,7 @@ let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
 
 // Set the date of her birthday
-const futureBirthday = new Date(2026, 0, 4, 23, 59, 0);
+const futureBirthday = new Date(2026, 0, 4, 22, 30, 0);
 
 const year = futureBirthday.getFullYear();
 const hours = futureBirthday.getHours();
