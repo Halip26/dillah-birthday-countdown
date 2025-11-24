@@ -92,7 +92,7 @@ function getRemindingTime() {
 
   if (t < 0) {
     clearInterval(countdown);
-    timeLeft.innerHTML = `<h4 class="expired">Hi dils, your birthday has passed!  <br /> But, try to click the button below hehee 👇 <br /> <a href="birthday-card.html">Birthday wishes </a> </h4>`;
+    timeLeft.innerHTML = `<h4 class="expired">Hi dills, your birthday has passed!  <br /> But, try to click the button below hehee 👇 <br /> <a href="birthday-card.html">Birthday wishes </a> </h4>`;
   }
 }
 
