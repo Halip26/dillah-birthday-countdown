@@ -42,17 +42,25 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 15%;
-  backdrop-filter: blur(50px);
-  background-color: #13131385;
-  opacity: 0.7;
+  backdrop-filter: blur(1px);
+  /* use hexa instead of opacity so text stays opaque */
+  background-color: #c97c99a3; /* adjust alpha #440e246c */
+  /* opacity: 0.5;  <-- removed */
   border-radius: 20px;
   transition: all 0.3s ease;
-  box-shadow: 5px 5px 12px #14141459;
+  box-shadow: 5px 5px 12px #440e246c;
+
+  /* simple visible border */
+  border: 2px solid #ffffff44; /* change color/width */
+
+  /* subtle outer ring */
+  outline: 2px solid #00000014;
+  outline-offset: 0px;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px #14141459;
+  box-shadow: 0 0 30px #440e246c;
 }
 
 .text h1 {
@@ -123,7 +131,7 @@ h4 {
   border: 0.5rem;
   border-color: black;
   height: 5rem;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #ffffff;
   border-radius: 50%;
   margin: 2px;
 }
@@ -143,21 +151,33 @@ h4 {
   text-align: center;
   margin: auto;
   backdrop-filter: blur(10px);
-  background-color: #31313180;
-  opacity: 0.7;
+  background-color: #92536b50; /* use hexa, remove opacity */
+  /* opacity: 0.7;  <-- removed */
   border-radius: 20px;
   box-shadow: 4px 4px 6px #1d1d1d59;
 }
 
-.card-footer a {
-  text-decoration: none;
+footer .card-footer a {
   color: crimson;
-  transition: 0.2s ease-in;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  font-weight: 600;
 }
 
-.card-footer a:hover {
-  color: #ff0033;
-  text-decoration: underline;
+footer .card-footer a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ff1140;
+  bottom: -2px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+footer .card-footer a:hover::before {
+  transform: scaleX(1);
 }
 
 .card-footer h1 {
@@ -214,7 +234,7 @@ h4 {
   }
 
   .text h4 {
-    font-size: 12px;
+    font-size: 13px;
     padding-left: 35px;
     padding-right: 35px;
   }
