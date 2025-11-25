@@ -8,7 +8,7 @@ This project is a simple yet charming countdown timer designed by [me](https://h
 
 ## Preview & link
 
-![dillah](./assets/images/screenshot-preview.png)
+![dillah](./assets/images/screenshot-preview.jpg)
 
 [See it Live Here](https://halip26.github.io/dillah-birthday-countdown/)
 
@@ -36,7 +36,7 @@ This project is a simple yet charming countdown timer designed by [me](https://h
 **Project Structure:**
 
 ```md
-countdown-to-halip-birthday/
+dillah-birthday-countdown//
 ├── index.html  # Main HTML file
 ├── style.css   # CSS styles for layout and appearance
 ├── script.js   # JavaScript file for countdown logic
